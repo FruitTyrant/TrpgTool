@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrpgTool.Application", "TrpgTool.Application\TrpgTool.Application.csproj", "{B594C21D-F1CF-4E5C-BC92-0F945FE07A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrpgTool.Model", "TrpgTool.Model\TrpgTool.Model.csproj", "{71FAE8A9-31FB-4EA3-9BED-9A4D00485775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrpgTool.Data", "TrpgTool.Data\TrpgTool.Data.csproj", "{6D4F2E4C-4832-4945-B27F-2984DB34600E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrpgTool.Service", "TrpgTool.Service\TrpgTool.Service.csproj", "{C387D407-D3CB-4D34-AA30-50590970BF4F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B594C21D-F1CF-4E5C-BC92-0F945FE07A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B594C21D-F1CF-4E5C-BC92-0F945FE07A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B594C21D-F1CF-4E5C-BC92-0F945FE07A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B594C21D-F1CF-4E5C-BC92-0F945FE07A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71FAE8A9-31FB-4EA3-9BED-9A4D00485775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FAE8A9-31FB-4EA3-9BED-9A4D00485775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FAE8A9-31FB-4EA3-9BED-9A4D00485775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FAE8A9-31FB-4EA3-9BED-9A4D00485775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4F2E4C-4832-4945-B27F-2984DB34600E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4F2E4C-4832-4945-B27F-2984DB34600E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4F2E4C-4832-4945-B27F-2984DB34600E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4F2E4C-4832-4945-B27F-2984DB34600E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C387D407-D3CB-4D34-AA30-50590970BF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C387D407-D3CB-4D34-AA30-50590970BF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C387D407-D3CB-4D34-AA30-50590970BF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C387D407-D3CB-4D34-AA30-50590970BF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
